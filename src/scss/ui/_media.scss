@@ -10,6 +10,16 @@
     top: 0.7em;
   }
 
+  .fondo-auto{
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .login{
+    display: flex;
+    flex-direction: column !important;
+  }
+
   .pi {
     font-weight: bolder;
     border-bottom: 3px solid $primary;
@@ -161,6 +171,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+
+  .login{
+    display: flex;
+    flex-direction: column !important;
   }
 
   .contenedor-beneficiarios .checkbox {

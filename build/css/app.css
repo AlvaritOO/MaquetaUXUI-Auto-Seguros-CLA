@@ -12433,6 +12433,70 @@ section#carrusel {
   z-index: -9;
 }
 
+.texto-titulo-auto {
+  width: auto;
+  font-family: "Rawson Pro", sans-serif;
+  font-size: 64px;
+  font-weight: 650;
+  line-height: 66px;
+  margin-bottom: 0 !important;
+}
+
+.subtitulo-auto {
+  padding-top: 0 !important;
+  font-size: 24px;
+  margin-top: 0 !important;
+  line-height: 32px;
+  margin-bottom: 0px !important;
+}
+
+.texto-light {
+  font-weight: lighter;
+}
+
+.tabla-auto {
+  width: 533px;
+  font-family: "Rawson Pro", sans-serif;
+  gap: 32px;
+}
+
+.texto-tabla {
+  font-size: 16px;
+}
+
+.tabla-login {
+  width: 522px;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 24px, 0px, 24px, 0px;
+}
+
+.titulo-caja-login {
+  background-color: #326295;
+  border-radius: 16px 16px 0px 0px;
+  font-size: 24px;
+  font-family: "Rawson Pro", sans-serif;
+  line-height: 30px;
+}
+
+.tabla-login label {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.modelo {
+  width: 100% !important;
+}
+
+.tabla-login p {
+  color: #3e4545;
+}
+
+.full-width {
+  width: 100%;
+}
+
 .producto-banner-top {
   background: url("../dist/img/image-vida-familiar.jpg") no-repeat center center;
   height: 800px;
@@ -13740,7 +13804,7 @@ section#legales {
 }
 
 section#footer {
-  background-color: #0076A9;
+  background-color: #00648F;
   margin-top: auto;
 }
 
@@ -14323,6 +14387,14 @@ h5.title-form {
     position: absolute;
     top: 0.7em;
   }
+  .fondo-auto {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .login {
+    display: flex;
+    flex-direction: column !important;
+  }
   .pi {
     font-weight: bolder;
     border-bottom: 3px solid #0076a9;
@@ -14472,6 +14544,10 @@ h5.title-form {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+  .login {
+    display: flex;
+    flex-direction: column !important;
   }
   .contenedor-beneficiarios .checkbox {
     width: 50%;
