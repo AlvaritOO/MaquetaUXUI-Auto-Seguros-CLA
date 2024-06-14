@@ -12493,8 +12493,45 @@ section#carrusel {
   color: #3e4545;
 }
 
+.contenido-login {
+  height: 800px;
+}
+
 .full-width {
   width: 100%;
+}
+
+.cards-auto {
+  background-image: url("../../img/fondo-auto.png");
+  background-color: #F9BE00;
+  border-radius: 0px !important;
+}
+
+.card-auto {
+  border-radius: 8px;
+  width: 18rem;
+}
+
+.titulo-card-auto {
+  font-size: 21px;
+  font-family: "Rawson Pro", sans-serif;
+  color: #008EC4;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.sub-card-auto {
+  font-size: 14px;
+  font-family: "Rawson Pro", sans-serif;
+  margin-bottom: 0px !important;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+}
+
+.card-selected:hover {
+  background-color: #fff !important;
+  border: 3px solid #008ec4;
 }
 
 .producto-banner-top {

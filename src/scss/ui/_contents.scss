@@ -67,7 +67,6 @@ font-family: "Rawson Pro", sans-serif;
 line-height: 30px;
 }
 
-
 .tabla-login label{
   color: $gris-light;
   font-weight: normal;
@@ -81,8 +80,47 @@ line-height: 30px;
   color: $gris-dark;
 }
 
+.contenido-login{
+  height: 800px;
+}
+
 .full-width{
   width: 100%;
+}
+
+.cards-auto{
+  background-image: url('../../img/fondo-auto.png');
+  background-color: #F9BE00;
+  border-radius: 0px !important;
+}
+
+.card-auto{
+  border-radius: 8px;
+  width: 18rem;
+
+}
+
+.titulo-card-auto{
+  font-size: 21px;
+  font-family: "Rawson Pro", sans-serif;
+  color: #008EC4;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.sub-card-auto{
+  font-size: 14px;
+  font-family: "Rawson Pro", sans-serif;
+  margin-bottom: 0px !important;
+  text-align: center;
+  color: $black;
+  font-weight: 500;
+}
+
+.card-selected:hover {
+  background-color: $white !important;
+  border: 3px solid $input-focus-border-color;
+  
 }
 
 .producto-banner-top {
@@ -881,6 +919,7 @@ p.title-folleto {
   border: 2px solid $black;
   background: #F9BE00;
 }
+
 
 .btn-amarillo:hover {
   color: $black;
