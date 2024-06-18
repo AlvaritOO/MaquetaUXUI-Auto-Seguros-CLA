@@ -11,7 +11,15 @@
   border: 1px solid #666 !important;
 }
 
-//section login
+body{
+  font-family: "Rawson Pro", sans-serif;
+}
+
+.light-blue{
+  color: $light-blue !important;
+}
+
+//login
 section#carrusel {
   position: relative;
   top: 0px;
@@ -137,6 +145,67 @@ line-height: 30px;
   border: 3px solid $input-focus-border-color;
   
 }
+
+//Home
+
+.subt-form{
+  color: $black;
+  font-size: 18px;
+}
+
+.titulo-cards{
+  font-size: 36px;
+  color: $primary;
+  
+}
+
+.titulo-card-plan{
+text-align: left !important;
+}
+
+.subtitulo-card-plan{
+  color: #D59608 !important;
+  font-size: 20px;
+}
+
+.precio-plan{
+  color: $primary;
+  font-size: 32px;
+ line-height: 24px;
+}
+
+.tachado{
+
+ text-decoration:line-through;
+}
+
+.texto-tachado{
+  color: #C9D0D3;
+  font-size: 18px;
+}
+
+.precio-tachado{
+  font-size: 22px;
+}
+
+.font-small{
+  font-size: 14px;
+}
+
+.font-medium{
+  font-size: 18px;
+}
+
+.cotizado{
+  background-color: #4EBCE3;
+  font-size: 20px;
+  border-radius: 24px;
+}
+.legales{
+  line-height: 16px;
+}
+
+//fin home
 
 .producto-banner-top {
   background: url("../dist/img/image-vida-familiar.jpg") no-repeat center center;
@@ -371,6 +440,18 @@ p.card-text a {
   height: 2px;
   margin: 38px 20px;
   border-bottom: 1px solid #f9be00;
+}
+
+.divisor-card2 {
+  height: 1px;
+  margin: 15px 5px;
+  border-bottom: 1px solid #f9be00;
+}
+
+.divisor-card3 {
+  height: 1px;
+  margin: 15px 45px;
+  border-right: 1px solid #f9be00;
 }
 
 .divisor-card-escolaridad {
@@ -611,13 +692,13 @@ span.icono-destacada.material-icons-outlined {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-
+  background-color: $white;
   width: 337.33px;
   height: auto;
   transition: all 0.3s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 2px solid $white;
+  border: 1px solid $primary;
   border-radius: 16px;
 
   &:hover {
@@ -630,6 +711,10 @@ span.icono-destacada.material-icons-outlined {
 
 .card-content .card-body {
   padding: 0px;
+}
+
+.card-body{
+  background-color: $white;
 }
 
 .card-content div a {

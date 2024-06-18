@@ -12427,6 +12427,14 @@ textarea.form-control-lg {
   border: 1px solid #666 !important;
 }
 
+body {
+  font-family: "Rawson Pro", sans-serif;
+}
+
+.light-blue {
+  color: #008EC4 !important;
+}
+
 section#carrusel {
   position: relative;
   top: 0px;
@@ -12546,6 +12554,62 @@ section#carrusel {
 .card-selected:hover {
   background-color: #fff !important;
   border: 3px solid #008ec4;
+}
+
+.subt-form {
+  color: #000;
+  font-size: 18px;
+}
+
+.titulo-cards {
+  font-size: 36px;
+  color: #0076a9;
+}
+
+.titulo-card-plan {
+  text-align: left !important;
+}
+
+.subtitulo-card-plan {
+  color: #D59608 !important;
+  font-size: 20px;
+}
+
+.precio-plan {
+  color: #0076a9;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.texto-tachado {
+  color: #C9D0D3;
+  font-size: 18px;
+}
+
+.precio-tachado {
+  font-size: 22px;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-size: 18px;
+}
+
+.cotizado {
+  background-color: #4EBCE3;
+  font-size: 20px;
+  border-radius: 24px;
+}
+
+.legales {
+  line-height: 16px;
 }
 
 .producto-banner-top {
@@ -12767,6 +12831,18 @@ p.card-text a {
   border-bottom: 1px solid #f9be00;
 }
 
+.divisor-card2 {
+  height: 1px;
+  margin: 15px 5px;
+  border-bottom: 1px solid #f9be00;
+}
+
+.divisor-card3 {
+  height: 1px;
+  margin: 15px 45px;
+  border-right: 1px solid #f9be00;
+}
+
 .divisor-card-escolaridad {
   height: auto;
   width: 250px;
@@ -12983,12 +13059,13 @@ span.icono-destacada.material-icons-outlined:hover {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  background-color: #fff;
   width: 337.33px;
   height: auto;
   transition: all 0.3s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 2px solid #fff;
+  border: 1px solid #0076a9;
   border-radius: 16px;
 }
 .card-content:hover {
@@ -13000,6 +13077,10 @@ span.icono-destacada.material-icons-outlined:hover {
 
 .card-content .card-body {
   padding: 0px;
+}
+
+.card-body {
+  background-color: #fff;
 }
 
 .card-content div a {
