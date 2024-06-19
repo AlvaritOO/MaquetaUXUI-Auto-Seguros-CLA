@@ -205,6 +205,26 @@ text-align: left !important;
   line-height: 16px;
 }
 
+.testimonios{
+  background-image: url('../../img/Banner-testimonios.jpg');
+}
+
+.testimonio-card{
+  border-radius: 20px;
+}
+
+.img-testimonio{
+  transform: translateY(60px) scale();
+}
+
+.slidebar{
+  width: 226px;
+}
+
+.lista-cobertura{
+  line-height: 17px !important;
+}
+
 //fin home
 
 .producto-banner-top {
@@ -709,7 +729,25 @@ span.icono-destacada.material-icons-outlined {
   }
 }
 
-.card-content .card-body {
+.card-borde-a{
+  &:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(10px) scale();
+    z-index: 99;
+    border: 8px solid #F9BE00;
+  }
+}
+
+.card-borde-c{
+  &:hover {
+    transition: all 0.3s ease-in;
+    transform: translateY(10px) scale();
+    z-index: 99;
+    border: 8px solid #1896D3;
+  }
+}
+
+.card-content .card-body{
   padding: 0px;
 }
 
@@ -727,6 +765,7 @@ span.icono-destacada.material-icons-outlined {
   }
 }
 
+
 .card-content div p a {
   //height: 250px;
   padding: 10px 20px;
@@ -739,6 +778,7 @@ span.icono-destacada.material-icons-outlined {
     padding-top: 16px;
   }
 }
+
 
 .plan-recomendado {
   border: 1px solid #e8bc28;
@@ -1108,7 +1148,7 @@ button.owl-next span {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  padding: 40px;
+  padding: 20px;
   width: 100%;
   height: auto;
   background: #ebeff4;
