@@ -12452,12 +12452,14 @@ section#carrusel {
 }
 
 .subtitulo-auto {
+  font-family: "Rawson Pro", sans-serif;
   padding-top: 0 !important;
   font-size: 24px;
   margin-top: 0 !important;
-  line-height: 20px;
-  margin-bottom: 0px !important;
+  line-height: 32px;
+  margin-bottom: 5px !important;
   vertical-align: top;
+  font-weight: 650;
 }
 
 .texto-light {
@@ -12472,6 +12474,8 @@ section#carrusel {
 
 .texto-tabla {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .tabla-login {
@@ -12484,10 +12488,11 @@ section#carrusel {
 
 .titulo-caja-login {
   background-color: #326295;
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 14px 14px 0px 0px;
   font-size: 24px;
   font-family: "Rawson Pro", sans-serif;
   line-height: 30px;
+  font-weight: 400;
 }
 
 .tabla-login label {
@@ -12512,22 +12517,33 @@ section#carrusel {
 }
 
 .cards-auto {
-  background-image: url("../../img/fondo-auto.png");
-  background-color: #F9BE00;
-  border-radius: 0px !important;
+  background-image: url(../img/svg/background-promo-auto.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
 }
 
 .card-auto {
   border-radius: 8px;
-  width: 18rem;
+  height: 221.6px;
+  width: 180px;
+  padding: 12px 8px 12px 8px;
 }
 
 .titulo-card-auto {
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Rawson Pro", sans-serif;
-  color: #008EC4;
+  color: #008ec4;
   text-align: center;
-  margin-bottom: 0px !important;
+  line-height: 24px;
+  font-weight: 650;
+}
+.titulo-card-auto span {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .sub-card-auto {
@@ -12758,7 +12774,7 @@ p.card-text a {
 .divisor-simulador {
   height: 2px;
   margin: 40px 0px;
-  border-bottom: 3px solid #1896D3;
+  border-bottom: 3px solid #1896d3;
 }
 
 .divisor-card {
@@ -13026,7 +13042,7 @@ span.icono-destacada.material-icons-outlined:hover {
 .plan-recomendado {
   border: 1px solid #e8bc28;
   border-radius: 8px;
-  padding:  10px;
+  padding: 10px;
 }
 
 .box-plan-recomendado {
@@ -13280,13 +13296,13 @@ p.title-folleto {
 .btn-amarillo {
   color: #000;
   border: 2px solid #000;
-  background: #F9BE00;
+  background: #f9be00;
 }
 
 .btn-amarillo:hover {
   color: #000;
   border: 2px solid #000;
-  background: #FDE1A7;
+  background: #fde1a7;
 }
 
 .contenedor-imagen-categoria {
@@ -13647,8 +13663,8 @@ span.ic-form {
 }
 
 .alert-success {
-  background: #DEFFF5;
-  border: 1px solid #006E62;
+  background: #defff5;
+  border: 1px solid #006e62;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
 }
@@ -13729,7 +13745,7 @@ span.ic-form {
 .satisfecho {
   width: 97px;
   height: 16px;
-  color: #3E4545 !important;
+  color: #3e4545 !important;
   font-family: "Rawson Pro", sans-serif !important;
   font-style: normal;
   font-weight: 650;
@@ -13788,7 +13804,7 @@ span.ic-form {
 .body-cobertura {
   padding: 24px;
   height: auto;
-  background: #F6F7F7;
+  background: #f6f7f7;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 16px;
 }
@@ -13796,7 +13812,7 @@ span.ic-form {
 .body-simulador {
   padding: 24px;
   height: auto;
-  background: #DEF4FF;
+  background: #def4ff;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 16px;
 }
@@ -13815,7 +13831,7 @@ a.btn-mas-monto {
 
 .text-primary-uf {
   --bs-text-opacity: 1;
-  color: #008EC4 !important;
+  color: #008ec4 !important;
 }
 
 .container-text-planes {
@@ -13844,6 +13860,39 @@ a.btn-mas-monto {
 
 .color-green {
   color: #5b9e45;
+}
+
+.fondo-auto {
+  background-image: url("../img/fondo-auto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.promo-auto-titulo {
+  font-weight: 650;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.promo-auto-descripcion {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.mtn-1 {
+  margin-top: -5px;
+}
+
+.mbn-3 {
+  margin-bottom: -15px;
 }
 
 p.text-legales {
@@ -13907,8 +13956,8 @@ li.categoria {
   padding-top: 12px;
   color: #fff;
   border-bottom: 1px solid #ccc;
-  background: -webkit-gradient(linear, right top, left top, from(#626262), to(#0095C5));
-  background: linear-gradient(270deg, #626262, #0095C5);
+  background: -webkit-gradient(linear, right top, left top, from(#626262), to(#0095c5));
+  background: linear-gradient(270deg, #626262, #0095c5);
   background-size: 400% 400%;
   -webkit-animation: back-gradiente-producto 7s ease infinite;
   animation: back-gradiente-producto 7s ease infinite;
@@ -14067,23 +14116,23 @@ img.logo-cslc-small {
 }
 
 .btn.btn-volver {
-  border: 2px solid #0076A9;
+  border: 2px solid #0076a9;
   color: #000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 48px;
 }
 .btn.btn-volver:hover {
-  background-color: #F6F7F7;
+  background-color: #f6f7f7;
   color: #212529;
 }
 
 .btn.btn-text {
-  color: #0076A9;
-  background-color: #FFFFFF;
+  color: #0076a9;
+  background-color: #ffffff;
   height: 48px;
 }
 .btn.btn-text:hover {
-  background: #F6F7F7;
+  background: #f6f7f7;
   border-radius: 8px;
 }
 
@@ -14173,7 +14222,7 @@ nav a.nav-link.active {
 }
 
 .nav-tab1 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-bottom: 0px;
   margin-bottom: 40px;
   width: 100%;
@@ -14437,10 +14486,6 @@ h5.title-form {
     width: 30%;
     position: absolute;
     top: 0.7em;
-  }
-  .fondo-auto {
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   .login {
     display: flex;

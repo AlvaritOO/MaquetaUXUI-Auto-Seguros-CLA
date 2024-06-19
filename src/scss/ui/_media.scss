@@ -10,12 +10,7 @@
     top: 0.7em;
   }
 
-  .fondo-auto{
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .login{
+  .login {
     display: flex;
     flex-direction: column !important;
   }
@@ -173,8 +168,7 @@
     align-items: center;
   }
 
-
-  .login{
+  .login {
     display: flex;
     flex-direction: column !important;
   }
@@ -201,7 +195,6 @@
 }
 //Media Queries MD ≥576px
 @include media-breakpoint-only(sm) {
-
   .body-buttom-beneficiario {
     padding: 24px;
     height: auto;
@@ -305,7 +298,6 @@
 
 //Media Queries MD ≥768px
 @include media-breakpoint-only(md) {
-
   .body-buttom-beneficiario {
     padding: 24px;
     height: auto;
