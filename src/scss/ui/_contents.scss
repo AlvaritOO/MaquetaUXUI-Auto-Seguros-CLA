@@ -196,6 +196,10 @@ text-align: left !important;
   font-size: 18px;
 }
 
+.font-medium2{
+  font-size: 24px;
+}
+
 .cotizado{
   background-color: #4EBCE3;
   font-size: 20px;
@@ -211,18 +215,46 @@ text-align: left !important;
 
 .testimonio-card{
   border-radius: 20px;
+  width: 541px;
+  background-color: $white !important;
 }
 
-.img-testimonio{
-  transform: translateY(60px) scale();
+.testimonio-fondo{
+  background-color: $primary;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .slidebar{
   width: 226px;
+
+}
+
+.titulo-car-testimonio{
+  margin-bottom: 6px !important ;
+}
+
+.primera-parte-card{
+position:relative;
+z-index: 1;
+}
+
+.nombre-card{
+  font-size: 36px;
 }
 
 .lista-cobertura{
   line-height: 17px !important;
+}
+
+.gris-claro{
+  color: #3E4545 !important;
+}
+
+.icono-verificar{
+  color: #00A259 !important;
 }
 
 //fin home
