@@ -8,9 +8,8 @@ $link-color: #ccc;*/
 }
 
 /*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
+ * Bootstrap  v5.3.3 (https://getbootstrap.com/)
+ * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
@@ -53,10 +52,32 @@ $link-color: #ccc;*/
   --bs-danger-rgb: 181, 18, 27;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-primary-text-emphasis: #002f44;
+  --bs-secondary-text-emphasis: #2b2f32;
+  --bs-success-text-emphasis: #003417;
+  --bs-info-text-emphasis: #055160;
+  --bs-warning-text-emphasis: #64461a;
+  --bs-danger-text-emphasis: #48070b;
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #495057;
+  --bs-primary-bg-subtle: #cce4ee;
+  --bs-secondary-bg-subtle: #e2e3e5;
+  --bs-success-bg-subtle: #cce6d7;
+  --bs-info-bg-subtle: #cff4fc;
+  --bs-warning-bg-subtle: #feefd9;
+  --bs-danger-bg-subtle: #f0d0d1;
+  --bs-light-bg-subtle: #fcfcfd;
+  --bs-dark-bg-subtle: #ced4da;
+  --bs-primary-border-subtle: #99c8dd;
+  --bs-secondary-border-subtle: #c4c8cb;
+  --bs-success-border-subtle: #99cdb0;
+  --bs-info-border-subtle: #9eeaf9;
+  --bs-warning-border-subtle: #fddfb3;
+  --bs-danger-border-subtle: #e1a0a4;
+  --bs-light-border-subtle: #e9ecef;
+  --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -65,7 +86,28 @@ $link-color: #ccc;*/
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
+  --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #fff;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-emphasis-color: #000;
+  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-secondary-color: rgba(33, 37, 41, 0.75);
+  --bs-secondary-color-rgb: 33, 37, 41;
+  --bs-secondary-bg: #e9ecef;
+  --bs-secondary-bg-rgb: 233, 236, 239;
+  --bs-tertiary-color: rgba(33, 37, 41, 0.5);
+  --bs-tertiary-color-rgb: 33, 37, 41;
+  --bs-tertiary-bg: #f8f9fa;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-heading-color: inherit;
+  --bs-link-color: #0076a9;
+  --bs-link-color-rgb: 0, 118, 169;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #005e87;
+  --bs-link-hover-color-rgb: 0, 94, 135;
+  --bs-code-color: #d63384;
+  --bs-highlight-color: #212529;
+  --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -74,12 +116,20 @@ $link-color: #ccc;*/
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
   --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius-2xl: var(--bs-border-radius-xxl);
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0076a9;
-  --bs-link-hover-color: #005e87;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 0.25;
+  --bs-focus-ring-color: rgba(0, 118, 169, 0.25);
+  --bs-form-valid-color: #018139;
+  --bs-form-valid-border-color: #018139;
+  --bs-form-invalid-color: #b5121b;
+  --bs-form-invalid-border-color: #b5121b;
 }
 
 *,
@@ -133,6 +183,14 @@ $link-color: #ccc;*/
   font: inherit;
   -webkit-appearance: button;
 }
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
 
 @keyframes progress-bar-stripes {
   0% {
@@ -155,15 +213,6 @@ $link-color: #ccc;*/
 /* rtl:begin:ignore */
 
 /* rtl:end:ignore */
-
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
 
 @keyframes spinner-border {
   to {

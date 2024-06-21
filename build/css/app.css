@@ -12427,6 +12427,14 @@ textarea.form-control-lg {
   border: 1px solid #666 !important;
 }
 
+body {
+  font-family: "Rawson Pro", sans-serif;
+}
+
+.light-blue {
+  color: #008EC4 !important;
+}
+
 section#carrusel {
   position: relative;
   top: 0px;
@@ -12513,7 +12521,7 @@ section#carrusel {
 
 .cards-auto {
   background-image: url("../../img/fondo-auto.png");
-  background-color: #F9BE00;
+  background-color: #f9be00;
   border-radius: 0px !important;
 }
 
@@ -12525,7 +12533,7 @@ section#carrusel {
 .titulo-card-auto {
   font-size: 21px;
   font-family: "Rawson Pro", sans-serif;
-  color: #008EC4;
+  color: #008ec4;
   text-align: center;
   margin-bottom: 0px !important;
 }
@@ -12546,6 +12554,113 @@ section#carrusel {
 .card-selected:hover {
   background-color: #fff !important;
   border: 3px solid #008ec4;
+}
+
+.subt-form {
+  color: #000;
+  font-size: 18px;
+}
+
+.titulo-cards {
+  font-size: 36px;
+  color: #0076a9;
+}
+
+.titulo-card-plan {
+  text-align: left !important;
+}
+
+.subtitulo-card-plan {
+  color: #d59608 !important;
+  font-size: 20px;
+}
+
+.precio-plan {
+  color: #0076a9;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.texto-tachado {
+  color: #c9d0d3;
+  font-size: 18px;
+}
+
+.precio-tachado {
+  font-size: 22px;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-size: 18px;
+}
+
+.font-medium2 {
+  font-size: 24px;
+}
+
+.cotizado {
+  background-color: #4ebce3;
+  font-size: 20px;
+  border-radius: 24px;
+}
+
+.legales {
+  line-height: 16px;
+}
+
+.testimonios {
+  background-image: url("../../img/Banner-testimonios.jpg");
+}
+
+.testimonio-card {
+  border-radius: 20px;
+  max-width: 541px;
+  background-color: #fff !important;
+}
+
+.testimonio-fondo {
+  background-color: #0076a9;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.slidebar {
+  width: 226px;
+}
+
+.titulo-car-testimonio {
+  margin-bottom: 6px !important;
+}
+
+.primera-parte-card {
+  position: relative;
+  z-index: 1;
+}
+
+.nombre-card {
+  font-size: 36px;
+}
+
+.lista-cobertura {
+  line-height: 17px !important;
+}
+
+.gris-claro {
+  color: #3e4545 !important;
+}
+
+.icono-verificar {
+  color: #00a259 !important;
 }
 
 .producto-banner-top {
@@ -12758,13 +12873,25 @@ p.card-text a {
 .divisor-simulador {
   height: 2px;
   margin: 40px 0px;
-  border-bottom: 3px solid #1896D3;
+  border-bottom: 3px solid #1896d3;
 }
 
 .divisor-card {
   height: 2px;
   margin: 38px 20px;
   border-bottom: 1px solid #f9be00;
+}
+
+.divisor-card2 {
+  height: 1px;
+  margin: 15px 5px;
+  border-bottom: 1px solid #f9be00;
+}
+
+.divisor-card3 {
+  height: 1px;
+  margin: 15px 45px;
+  border-right: 1px solid #f9be00;
 }
 
 .divisor-card-escolaridad {
@@ -12983,12 +13110,13 @@ span.icono-destacada.material-icons-outlined:hover {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  background-color: #fff;
   width: 337.33px;
   height: auto;
   transition: all 0.3s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 2px solid #fff;
+  border: 1px solid #0076a9;
   border-radius: 16px;
 }
 .card-content:hover {
@@ -12998,8 +13126,26 @@ span.icono-destacada.material-icons-outlined:hover {
   border: 2px solid #0076a9;
 }
 
+.card-borde-a:hover {
+  transition: all 0.3s ease-in;
+  transform: translateY(10px) scale();
+  z-index: 99;
+  border: 8px solid #f9be00;
+}
+
+.card-borde-c:hover {
+  transition: all 0.3s ease-in;
+  transform: translateY(10px) scale();
+  z-index: 99;
+  border: 8px solid #1896d3;
+}
+
 .card-content .card-body {
   padding: 0px;
+}
+
+.card-body {
+  background-color: #fff;
 }
 
 .card-content div a {
@@ -13026,7 +13172,7 @@ span.icono-destacada.material-icons-outlined:hover {
 .plan-recomendado {
   border: 1px solid #e8bc28;
   border-radius: 8px;
-  padding:  10px;
+  padding: 10px;
 }
 
 .box-plan-recomendado {
@@ -13280,13 +13426,13 @@ p.title-folleto {
 .btn-amarillo {
   color: #000;
   border: 2px solid #000;
-  background: #F9BE00;
+  background: #f9be00;
 }
 
 .btn-amarillo:hover {
   color: #000;
   border: 2px solid #000;
-  background: #FDE1A7;
+  background: #fde1a7;
 }
 
 .contenedor-imagen-categoria {
@@ -13366,7 +13512,7 @@ button.owl-next span {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  padding: 40px;
+  padding: 20px;
   width: 100%;
   height: auto;
   background: #ebeff4;
@@ -13647,8 +13793,8 @@ span.ic-form {
 }
 
 .alert-success {
-  background: #DEFFF5;
-  border: 1px solid #006E62;
+  background: #defff5;
+  border: 1px solid #006e62;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
 }
@@ -13729,7 +13875,7 @@ span.ic-form {
 .satisfecho {
   width: 97px;
   height: 16px;
-  color: #3E4545 !important;
+  color: #3e4545 !important;
   font-family: "Rawson Pro", sans-serif !important;
   font-style: normal;
   font-weight: 650;
@@ -13788,7 +13934,7 @@ span.ic-form {
 .body-cobertura {
   padding: 24px;
   height: auto;
-  background: #F6F7F7;
+  background: #f6f7f7;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 16px;
 }
@@ -13796,7 +13942,7 @@ span.ic-form {
 .body-simulador {
   padding: 24px;
   height: auto;
-  background: #DEF4FF;
+  background: #def4ff;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 16px;
 }
@@ -13815,7 +13961,7 @@ a.btn-mas-monto {
 
 .text-primary-uf {
   --bs-text-opacity: 1;
-  color: #008EC4 !important;
+  color: #008ec4 !important;
 }
 
 .container-text-planes {
@@ -13844,6 +13990,22 @@ a.btn-mas-monto {
 
 .color-green {
   color: #5b9e45;
+}
+
+.nav_logo_bnp-text-white {
+  content: url(../img/svg/logo-bnp-nav.svg);
+}
+
+.nav_logo_la-camara-text-white {
+  content: url(../img/svg/la_camara-nav.svg);
+}
+
+.nav_logo_bnp-text-black {
+  content: url(../img/svg/bnp.svg);
+}
+
+.nav_logo_la-camara-text-black {
+  content: url(../img/svg/corredora-color.svg);
 }
 
 p.text-legales {
