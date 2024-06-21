@@ -21,18 +21,14 @@ $(window).scroll(function () {
   }
 });
 
-//scroll + de  400
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 400) {
-    $(".logo-cla").addClass("logo-cla-small").removeClass("logo-cla");
-    $(".logo-bnp").addClass("logo-bnp-small").removeClass("logo-bnp");
-    $(".logo-cslc").addClass("logo-cslc-small").removeClass("logo-cslc");
-    $("header").addClass("py-1").removeClass("py-3");
+  var scrollTop = $(window).scrollTop();
+  if (scrollTop >= 40) {
+    $(".logo-bnp").addClass("nav_logo_bnp-text-black").removeClass("nav_logo_bnp-text-white");
+    $(".logo-cslc").addClass("nav_logo_la-camara-text-black").removeClass("nav_logo_la-camara-text-white");
   } else {
-    $(".logo-cla-small").addClass("logo-cla").removeClass("logo-cla-small");
-    $(".logo-bnp-small").addClass("logo-bnp").removeClass("logo-bnp-small");
-    $(".logo-cslc-small").addClass("logo-cslc").removeClass("logo-cslc-small");
-    $("header").addClass("py-3").removeClass("py-1");
+    $(".logo-bnp").addClass("nav_logo_bnp-text-white").removeClass("nav_logo_bnp-text-black");
+    $(".logo-cslc").addClass("nav_logo_la-camara-text-white").removeClass("nav_logo_la-camara-text-black");
   }
 });
 
