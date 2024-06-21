@@ -13992,12 +13992,20 @@ a.btn-mas-monto {
   color: #5b9e45;
 }
 
-.logo-bnp-nav {
+.nav_logo_bnp-text-white {
   content: url(../img/svg/logo-bnp-nav.svg);
 }
 
-.logo-la_camara-nav {
+.nav_logo_la-camara-text-white {
   content: url(../img/svg/la_camara-nav.svg);
+}
+
+.nav_logo_bnp-text-black {
+  content: url(../img/svg/bnp.svg);
+}
+
+.nav_logo_la-camara-text-black {
+  content: url(../img/svg/corredora-color.svg);
 }
 
 p.text-legales {
