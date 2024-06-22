@@ -14052,6 +14052,10 @@ a.btn-mas-monto {
   margin-bottom: -15px;
 }
 
+.background-grey {
+  background-color: #f6f7f7;
+}
+
 p.text-legales {
   font-size: 0.8rem;
 }
