@@ -40,17 +40,19 @@ section#carrusel {
   font-family: "Rawson Pro", sans-serif;
   font-size: 36px;
   font-weight: 650;
-  line-height: 40px;
+  line-height: 44px;
   margin-bottom: 0 !important;
 }
 
 .subtitulo-auto {
+  font-family: "Rawson Pro", sans-serif;
   padding-top: 0 !important;
   font-size: 24px;
   margin-top: 0 !important;
-  line-height: 20px;
-  margin-bottom: 0px !important;
+  line-height: 32px;
+  margin-bottom: 5px !important;
   vertical-align: top;
+  font-weight: 650;
 }
 
 .texto-light {
@@ -73,6 +75,7 @@ section#carrusel {
   justify-content: center;
   border-radius: 16px;
   padding: 24px, 0px, 24px, 0px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
 }
 
 .titulo-caja-login {
@@ -104,23 +107,41 @@ section#carrusel {
   width: 100%;
 }
 
+$background-image-promo-auto: url(../img/svg/background-promo-auto.svg);
+
+// Mixin para el fondo
+@mixin background-image($image) {
+  background-image: $image;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .cards-auto {
-  background-image: url("../../img/fondo-auto.png");
-  background-color: #f9be00;
-  border-radius: 0px !important;
+  @include background-image($background-image-promo-auto);
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
 }
 
 .card-auto {
   border-radius: 8px;
-  width: 18rem;
+  height: 221.6px;
+  width: 180px;
+  padding: 12px 8px 12px 8px;
 }
 
 .titulo-card-auto {
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Rawson Pro", sans-serif;
   color: #008ec4;
   text-align: center;
-  margin-bottom: 0px !important;
+  line-height: 24px;
+  font-weight: 650;
+  span {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
 
 .sub-card-auto {
@@ -1712,4 +1733,48 @@ a.btn-mas-monto {
 
 .nav_logo_la-camara-text-black {
   content: url(../img/svg/corredora-color.svg);
+}
+
+.fondo-auto {
+  background-image: url("../img/fondo-auto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.promo-auto-titulo {
+  font-weight: 650;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.promo-auto-descripcion {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.mtn-1 {
+  margin-top: -5px;
+}
+
+.mbn-3 {
+  margin-bottom: -15px;
+}
+
+.background-grey {
+  background-color: #f6f7f7;
+}
+
+.description-caja-login {
+  font-weight: 650;
+  font-size: 22px;
+  line-height: 32px;
+  background-color: #f6f7f7;
 }

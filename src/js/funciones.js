@@ -21,14 +21,15 @@ $(window).scroll(function () {
   }
 });
 
+//scroll cambia logo de texto blanco a negro y viceversa
 $(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
   if (scrollTop >= 40) {
-    $(".logo-bnp").addClass("nav_logo_bnp-text-black").removeClass("nav_logo_bnp-text-white");
-    $(".logo-cslc").addClass("nav_logo_la-camara-text-black").removeClass("nav_logo_la-camara-text-white");
+    $(".logo-bnp-2").addClass("nav_logo_bnp-text-black").removeClass("nav_logo_bnp-text-white");
+    $(".logo-cslc-2").addClass("nav_logo_la-camara-text-black").removeClass("nav_logo_la-camara-text-white");
   } else {
-    $(".logo-bnp").addClass("nav_logo_bnp-text-white").removeClass("nav_logo_bnp-text-black");
-    $(".logo-cslc").addClass("nav_logo_la-camara-text-white").removeClass("nav_logo_la-camara-text-black");
+    $(".logo-bnp-2").addClass("nav_logo_bnp-text-white").removeClass("nav_logo_bnp-text-black");
+    $(".logo-cslc-2").addClass("nav_logo_la-camara-text-white").removeClass("nav_logo_la-camara-text-black");
   }
 });
 
