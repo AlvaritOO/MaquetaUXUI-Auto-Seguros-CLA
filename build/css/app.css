@@ -12499,6 +12499,7 @@ section#carrusel {
   font-size: 24px;
   font-family: "Rawson Pro", sans-serif;
   line-height: 30px;
+  padding-bottom: 6px;
 }
 
 .tabla-login label {
@@ -12534,9 +12535,16 @@ section#carrusel {
 
 .card-auto {
   border-radius: 8px;
-  height: 221.6px;
   width: 180px;
   padding: 12px 8px 12px 8px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.card-auto:hover {
+  border: 3px solid #008ec4;
+  transition: all 0.3s ease-in;
 }
 
 .titulo-card-auto {
@@ -12565,11 +12573,6 @@ section#carrusel {
   vertical-align: bottom;
   width: 100%;
   height: auto;
-}
-
-.card-selected:hover {
-  background-color: #fff !important;
-  border: 3px solid #008ec4;
 }
 
 .cards-auto-mobile {
@@ -14035,7 +14038,7 @@ a.btn-mas-monto {
 }
 
 .fondo-auto {
-  background-image: url("../img/fondo-auto.png");
+  background-image: url("../img/fondo-auto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
