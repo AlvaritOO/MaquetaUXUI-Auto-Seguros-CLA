@@ -6,7 +6,7 @@ $primary2: #326295;
 $secundario: #ffb300;
 $gris-dark: #3e4545;
 $gris-darker: #666;
-$gris-light: #98B0CA;
+$gris-light: #98b0ca;
 $white: #fff;
 $verde: #5b9e45;
 $error: #dc3545;
@@ -18,7 +18,7 @@ $g3: #a8b3b7;
 $danger: #b5121b;
 $warning: #fbb040;
 $success: #018139;
-$light-blue: #008EC4;
+$light-blue: #008ec4;
 
 //Card
 $card-border-radius: 0px;
@@ -104,21 +104,21 @@ $position-values: (
   95: 95%,
   98: 98%,
   100: 100%,
-  101: 101%,
+  101: 101%
 );
 
 @font-face {
-  font-family: "Rawson";
-  src: url("../../src/fonts/RawsonRegular.otf") format("opentype") !important;
+  font-family: "Rawson Pro";
+  src: url("../../src/fonts/RawsonRegular.otf");
 }
 
 html {
   scroll-behavior: smooth;
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
 }
 
 body {
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
   font-size: 18px;
   overflow-x: hidden;
   display: flex;
@@ -161,4 +161,3 @@ div.nav.nav-tabs.tabs-categorias.mt-4 button span {
   --bs-table-bg: #0076a9;
   color: white;
 }
-

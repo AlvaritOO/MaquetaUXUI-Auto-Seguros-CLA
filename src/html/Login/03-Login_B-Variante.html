@@ -23,6 +23,12 @@
     />
 
     <link rel="stylesheet" href="../../../build/css/splide.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- Material  CSS -->
     <link
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
@@ -68,122 +74,161 @@
           </div>
         </header>
       </div>
-      <!-- Inicio promo auto desktop-->
-      <div class="d-none d-sm-none d-lg-block">
+    </section>
+
+    <section id="promo">
+      <div class="">
         <div
           class="alert cards-auto d-flex alert-dismissible fade show mb-0 border-0 justify-content-center align-items-center"
           role="alert"
         >
-          <div class="me-5">
-            <div>
-              <div class="promo-auto-titulo">
-                No dejes pasar esta<br />
-                oportunidad
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="promo-auto-titulo">
+                  No dejes pasar esta oportunidad
+                </div>
+
+                <div>
+                  <div class="promo-auto-descripcion">
+                    Tu auto merece la mejor protección al mejor precio
+                  </div>
+                </div>
+                <div class="mt-4 mb-3 small">
+                  *Valor de precios podrían variar dependiendo del año de tu
+                  vehículo.
+                </div>
               </div>
-            </div>
-            <div>
-              <div class="promo-auto-descripcion">
-                Tu auto merece la mejor<br />
-                protección al mejor precio
-              </div>
-            </div>
-            <div class="mt-4 mb-3">
-              *Valor de precios podrían variar<br />
-              dependiendo del año de<br />
-              tu vehículo.
-            </div>
-          </div>
-          <div class="row">
-            <div class="card card-auto mx-3 card-selected">
-              <div class="card-body-auto">
-                <h5
-                  class="card-title color-primary titulo-card-auto align-center"
-                >
-                  Desde 00.000
-                </h5>
-                <p class="card-text sub-card-auto">Toyota Corolla</p>
-                <img
-                  src="../../img/svg/toyota.svg"
-                  class="mtn-1 mbn-3"
-                  alt="..."
-                />
-              </div>
-              <div class="justify-content-center d-flex pb-3">
-                <button
-                  type="button"
-                  class="btn btn-amarillo"
-                  id="liveToastBtn2"
-                >
-                  Ver más
-                </button>
-              </div>
-            </div>
-            <div class="card card-auto mx-3 card-selected">
-              <div class="card-body-auto">
-                <h5
-                  class="card-title color-primary titulo-card-auto fw-bold align-center"
-                >
-                  Desde 00.000
-                </h5>
-                <p class="card-text sub-card-auto">Kia Morning</p>
-                <img
-                  src="../../img/svg/kia-morning-2017.svg"
-                  class="pt-2"
-                  alt="..."
-                />
-              </div>
-              <div class="justify-content-center d-flex pb-3">
-                <button
-                  type="button"
-                  class="btn btn-amarillo"
-                  id="liveToastBtn2"
-                >
-                  Ver más
-                </button>
-              </div>
-            </div>
-            <div class="card card-auto mx-3 card-selected">
-              <div class="card-body-auto">
-                <h5
-                  class="card-title color-primary titulo-card-auto fw-bold align-center"
-                >
-                  Desde 00.000
-                </h5>
-                <p class="card-text sub-card-auto">Suzuki Baleno</p>
-                <img src="../../img/svg/suzuki 1.svg" class="ps-2" alt="..." />
-              </div>
-              <div class="justify-content-center d-flex pb-3">
-                <button
-                  type="button"
-                  class="btn btn-amarillo"
-                  id="liveToastBtn2"
-                >
-                  Ver más
-                </button>
-              </div>
-            </div>
-            <div class="card card-auto mx-3 card-selected">
-              <div class="card-body-auto">
-                <h5
-                  class="card-title color-primary titulo-card-auto fw-bold align-center"
-                >
-                  Desde 00.000
-                </h5>
-                <p class="card-text sub-card-auto">Peugeot 208</p>
-                <img
-                  src="../../img/svg/Peugeot 208 1.svg"
-                  class="pt-2"
-                  alt="..."
-                />
-              </div>
-              <div class="justify-content-center d-flex pb-3">
-                <button
-                  type="button"
-                  class="btn btn-amarillo"
-                  id="liveToastBtn2"
-                >
-                  Ver más
-                </button>
+
+              <div class="col-12 col-lg-8">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card-auto mx-3 card-selected">
+                        <div class="card-body-auto">
+                          <h5
+                            class="card-title color-primary titulo-card-auto fw-bold align-center"
+                          >
+                            Desde 00.000
+                          </h5>
+                          <p class="card-text sub-card-auto">Kia Morning</p>
+                          <div class="contenedor-imagen-promo">
+                            <img
+                              src="../../img/svg/kia-morning-2017.svg"
+                              class="pt-2"
+                              alt="..."
+                            />
+                          </div>
+                        </div>
+                        <div class="justify-content-center d-flex pb-3">
+                          <button
+                            type="button"
+                            class="btn btn-amarillo"
+                            id="liveToastBtn2"
+                          >
+                            Ver más
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-auto mx-3 card-selected">
+                        <div class="card-body-auto">
+                          <h5
+                            class="card-title color-primary titulo-card-auto fw-bold align-center"
+                          >
+                            Desde 00.000
+                          </h5>
+                          <p class="card-text sub-card-auto">Kia Morning</p>
+                          <div class="contenedor-imagen-promo">
+                            <img
+                              src="../../img/svg/kia-morning-2017.svg"
+                              class="pt-2"
+                              alt="..."
+                            />
+                          </div>
+                        </div>
+                        <div class="justify-content-center d-flex pb-3">
+                          <button
+                            type="button"
+                            class="btn btn-amarillo"
+                            id="liveToastBtn2"
+                          >
+                            Ver más
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-auto mx-3 card-selected">
+                        <div class="card-body-auto">
+                          <h5
+                            class="card-title color-primary titulo-card-auto fw-bold align-center"
+                          >
+                            Desde 00.000
+                          </h5>
+                          <p class="card-text sub-card-auto">Suzuki Baleno</p>
+                          <div class="contenedor-imagen-promo">
+                            <img
+                              src="../../img/svg/suzuki 1.svg"
+                              class="ps-2"
+                              alt="..."
+                            />
+                          </div>
+                        </div>
+                        <div class="justify-content-center d-flex pb-3">
+                          <button
+                            type="button"
+                            class="btn btn-amarillo"
+                            id="liveToastBtn2"
+                          >
+                            Ver más
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-auto mx-3 card-selected">
+                        <div class="card-body-auto">
+                          <h5
+                            class="card-title color-primary titulo-card-auto fw-bold align-center"
+                          >
+                            Desde 00.000
+                          </h5>
+                          <p class="card-text sub-card-auto">Peugeot 208</p>
+                          <div class="contenedor-imagen-promo">
+                            <img
+                              src="../../img/svg/Peugeot 208 1.svg"
+                              class="pt-2"
+                              alt="..."
+                            />
+                          </div>
+                        </div>
+                        <div class="justify-content-center d-flex pb-3">
+                          <button
+                            type="button"
+                            class="btn btn-amarillo"
+                            id="liveToastBtn2"
+                          >
+                            Ver más
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+
+                  <!-- If we need navigation buttons -->
+                  <div class="cont-nav-button d-lg-none d-xl-none">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -196,357 +241,239 @@
           ></button>
         </div>
       </div>
-      <!-- Fin promo auto desktop-->
-      <!-- Inicio promo auto mobile-->
-      <div class="d-sm-block d-lg-none">
-        <div
-          class="alert cards-auto-mobile d-flex alert-dismissible fade show mb-0 border-0 justify-content-center align-items-center row"
-          role="alert"
-        >
-          <div>
-            <div>
-              <div class="promo-auto-titulo">
-                No dejes pasar esta<br />
-                oportunidad
-              </div>
-            </div>
-            <div>
-              <div class="promo-auto-descripcion">
-                Tu auto merece la mejor<br />
-                protección al mejor precio
-              </div>
-            </div>
-            <div class="mt-4 mb-3">
-              *Valor de precios podrían variar<br />
-              dependiendo del año de<br />
-              tu vehículo.
-            </div>
-          </div>
-          <button
-            type="button"
-            class="btn-close justify-content-end"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          ></button>
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators custom-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card card-auto mx-3 card-selected">
-                  <div class="card-body-auto">
-                    <h5
-                      class="card-title color-primary titulo-card-auto align-center"
-                    >
-                      Desde 00.000
-                    </h5>
-                    <p class="card-text sub-card-auto">Toyota Corolla</p>
-                    <img
-                      src="../../img/svg/toyota.svg"
-                      class="mtn-1 mbn-3"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="justify-content-center d-flex pb-3">
-                    <button
-                      type="button"
-                      class="btn btn-amarillo"
-                      id="liveToastBtn2"
-                    >
-                      Ver más
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card card-auto mx-3 card-selected">
-                  <div class="card-body-auto">
-                    <h5
-                      class="card-title color-primary titulo-card-auto fw-bold align-center"
-                    >
-                      Desde 00.000
-                    </h5>
-                    <p class="card-text sub-card-auto">Kia Morning</p>
-                    <img
-                      src="../../img/svg/kia-morning-2017.svg"
-                      class="pt-2"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="justify-content-center d-flex pb-3">
-                    <button
-                      type="button"
-                      class="btn btn-amarillo"
-                      id="liveToastBtn2"
-                    >
-                      Ver más
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card card-auto mx-3 card-selected">
-                  <div class="card-body-auto">
-                    <h5
-                      class="card-title color-primary titulo-card-auto fw-bold align-center"
-                    >
-                      Desde 00.000
-                    </h5>
-                    <p class="card-text sub-card-auto">Suzuki Baleno</p>
-                    <img
-                      src="../../img/svg/suzuki 1.svg"
-                      class="ps-2"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="justify-content-center d-flex pb-3">
-                    <button
-                      type="button"
-                      class="btn btn-amarillo"
-                      id="liveToastBtn2"
-                    >
-                      Ver más
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card card-auto mx-3 card-selected">
-                  <div class="card-body-auto">
-                    <h5
-                      class="card-title color-primary titulo-card-auto fw-bold align-center"
-                    >
-                      Desde 00.000
-                    </h5>
-                    <p class="card-text sub-card-auto">Peugeot 208</p>
-                    <img
-                      src="../../img/svg/Peugeot 208 1.svg"
-                      class="pt-2"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="justify-content-center d-flex pb-3">
-                    <button
-                      type="button"
-                      class="btn btn-amarillo"
-                      id="liveToastBtn2"
-                    >
-                      Ver más
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- Fin promo auto mobile-->
     </section>
+
     <!--Fin Header-->
 
     <!--Login-->
     <section class="background-grey">
       <div class="container row mx-auto mt-5">
         <div class="col-12 col-lg-6 mt-4 mb-5">
-          <div class="offset-md-1 text-dark login">
+          <div class="text-dark login">
             <div class="justify-content-center">
-              <div class="tabla-login">
-                <table>
-                  <tbody>
-                    <tr>
-                      <td class="titulo-caja-login">
-                        <p class="px-4 pt-4 pb-1 text-center text-white">
-                          Para conocer la oferta que
-                          <span class="fw-bold">Caja Los Andes</span> tiene para
-                          ti, necesitamos algunos datos.
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="description-caja-login">
-                        <p class="px-4 pt-4 pb-1 text-center">
-                          Ingresa tu RUT y patente
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="px-5 pt-3">
-                        <label
-                          class="text-dark pb-1"
-                          for="exampleInputEmail1"
-                          class="form-label"
-                          >RUT</label
+              <div class="col-12 col-lg-12 mb-4">
+                <div class="tabla-login mx-auto mb-4">
+                  <div class="tabla-login-cabecera titulo-caja-login">
+                    <p class="px-4 pt-4 pb-1 text-center text-white">
+                      Para conocer la oferta que
+                      <span class="fw-bold">Caja Los Andes</span> tiene para ti,
+                      necesitamos algunos datos.
+                    </p>
+                  </div>
+
+                  <form class="p-4">
+                    <div class="mb-3">
+                      <label for="exampleRut" class="form-label">RUT</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleRut"
+                        aria-describedby="exampleRut"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >PATENTE</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="patenteHelp"
+                      />
+                      <div id="patenteHelp" class="form-text">KGBP30</div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >MARCA</label
+                      >
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Modelo</label
                         >
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="exampleInputEmail1"
-                          aria-describedby="emailHelp"
-                          placeholder="Placeholder"
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="px-5 pt-2">
-                        <label
-                          class="text-dark pb-1"
-                          for="exampleInputEmail2"
-                          class="form-label"
-                          >Patente</label
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
                         >
-                        <input
-                          type="text"
-                          class="form-control text-dark"
-                          id="exampleInputEmail2"
-                          aria-describedby="emailHelp"
-                          placeholder="Placeholder"
-                        />
-                        <p>Ejemplo: HKRF33</p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div class="px-5 py-4">
-                  <button type="button" class="btn btn-primary auto full-width">
-                    Continuar
-                  </button>
+                          <option selected>Seleccione</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+
+                      <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Año</label
+                        >
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Seleccione</option>
+                          <option value="1">2024</option>
+                          <option value="2">2023</option>
+                          <option value="3">2022</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- Alert 1 -->
+                    <div
+                      class="alert alert-danger d-flex align-items-center mt-4 mb-auto mx-2"
+                      role="alert"
+                    >
+                      <div class="col-1 me-2">
+                        <img src="../../../build/img/svg/x-roja.svg" alt="" />
+                      </div>
+
+                      <div class="col fw-bolder">
+                        RUT o Formato de patente incorrectos.
+                      </div>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <!--Fin Alert 1-->
+
+                    <!-- Alert 2 -->
+                    <div
+                      class="alert alert-danger d-flex align-items-top mt-4 mb-auto mx-2"
+                      role="alert"
+                    >
+                      <div class="col-1 me-2">
+                        <img src="../../../build/img/svg/x-roja.svg" alt="" />
+                      </div>
+
+                      <div class="col fw-bolder">
+                        Cliente no tiene la edad para contratar el seguro
+                      </div>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <!--Fin Alert 2-->
+
+                    <!-- Alert 3 -->
+                    <div
+                      class="alert alert-danger d-flex align-items-top mt-4 mb-auto mx-2"
+                      role="alert"
+                    >
+                      <div class="col-1 me-2">
+                        <img src="../../../build/img/svg/x-roja.svg" alt="" />
+                      </div>
+
+                      <div class="col fw-bolder">
+                        Cliente supera la edad para contratar el seguro
+                      </div>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <!--Fin Alert 3-->
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn btn-primary auto full-width mt-4"
+                    >
+                      Continuar
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 row">
+        <div class="col-12 col-lg-6 row mx-auto">
           <div class="ps-5 text-dark">
             <div class="pb-5">
               <h1 class="texto-titulo-auto2 fw-bold">
                 Seguro Auto Full Cobertura
               </h1>
               <p
-                class="d-md-none d-lg-block d-sm-none d-md-block texto-light subtitulo-auto"
+                class="d-md-none d-lg-block d-sm-none d-md-block subtitulo-auto"
               >
                 Los riesgos no avisan, protégete con Autofull.
               </p>
             </div>
             <div>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <table class="tabla-auto">
-                        <tbody>
-                          <tr>
-                            <td class="align-top pt-3">
-                              <img
-                                class="pe-4 align-top"
-                                src="../../img/svg/auto-logo-negro.svg"
-                                alt="auto"
-                              />
-                            </td>
-                            <td>
-                              <p class="fw-bold subtitulo-auto text-dark">
-                                Daño pérdida total
-                              </p>
-                              <p class="texto-light texto-tabla">
-                                Se considerará daño pérdida total cuando el
-                                costo de reparación supere el 65% del valor del
-                                vehículo.
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="align-top pt-2">
-                              <img
-                                class="pe-4 align-top"
-                                src="../../img/svg/signo-exc.svg"
-                                alt="auto"
-                              />
-                            </td>
-                            <td>
-                              <p class="fw-bold subtitulo-auto text-dark">
-                                Daño parcial
-                              </p>
-                              <p class="texto-light texto-tabla">
-                                Se considerará daños parciales cuando el costo
-                                de reparación NO supere el 65% del valor del
-                                vehículo.
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="align-top pt-2">
-                              <img
-                                class="pe-4"
-                                src="../../img/svg/robo-auto-negro.svg"
-                                alt="auto"
-                              />
-                            </td>
-                            <td>
-                              <p class="fw-bold subtitulo-auto text-dark">
-                                Robos
-                              </p>
-                              <p class="texto-light texto-tabla">
-                                Se considerará pérdida total el robo del
-                                vehículo que cumpla 30 días corridos extraviado.
-                              </p>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <!--caracteristicas-->
+              <div class="col-lg-10 col-12">
+                <div class="col-lg-12 col-md-12 mb-4 pt-md-6 pt-2">
+                  <div class="feature-box not-dark">
+                    <img
+                      class="pe-4 align-top"
+                      src="../../img/svg/auto-logo-negro.svg"
+                      alt="auto"
+                    />
+                    <div class="fbox-content">
+                      <h5 class="fw-bold">Daño pérdida total</h5>
+                      <p>
+                        Se considerará daño pérdida total cuando el costo de
+                        reparación supere el 65% del valor del vehículo.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="feature-box not-dark mt-4">
+                    <img
+                      class="pe-4 align-top"
+                      src="../../img/svg/signo-exc.svg"
+                      alt="auto"
+                    />
+                    <div class="fbox-content">
+                      <h5 class="fw-bold">Daño Parcial</h5>
+                      <p>
+                        Se considerará daños parciales cuando el costo de
+                        reparación NO supere el 65% del valor del vehículo.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="feature-box not-dark mt-4">
+                    <img
+                      class="pe-4"
+                      src="../../img/svg/robo-auto-negro.svg"
+                      alt="auto"
+                    />
+                    <div class="fbox-content">
+                      <h5 class="fw-bold">Robos</h5>
+                      <p>
+                        Se considerará pérdida total el robo del vehículo que
+                        cumpla 30 días corridos extraviado.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="feature-box not-dark mt-4"></div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="mt-auto ms-5 ps-5 pe-0">
+          <div class="mt-auto ps-5 pe-0">
             <img
               class="img-persona-login mt-auto"
               src="../../img/LOGIN-AUTO.png"
@@ -976,7 +903,113 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../../js/funciones2.js"></script>
+
     <script src="../../js/funciones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   </body>
+
+  <style>
+    .cont-nav-button {
+      background-color: white !important;
+      margin-left: auto;
+      margin-right: auto;
+      width: 248px;
+      border-radius: 50px;
+      height: 64px;
+      margin-top: 40px;
+    }
+
+    .swiper-button-next {
+      position: relative;
+      top: -12px;
+      right: -195px;
+      width: calc(var(--swiper-navigation-size) / 44 * 44);
+      height: var(--swiper-navigation-size);
+      margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+      z-index: 10;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--swiper-navigation-color, var(--swiper-theme-color));
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      background-image: url("../../img/svg/Arrowleft.svg");
+    }
+
+    .swiper-button-prev {
+      position: relative;
+      top: 10px;
+      width: calc(var(--swiper-navigation-size) / 44 * 44);
+      height: var(--swiper-navigation-size);
+      margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+      z-index: 10;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--swiper-navigation-color, var(--swiper-theme-color));
+      background-image: url("../../img/svg/Arrowleft.svg");
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      font-family: swiper-icons;
+      font-size: var(--swiper-navigation-size);
+      text-transform: none !important;
+      letter-spacing: 0;
+      font-variant: initial;
+      line-height: 1;
+      display: none;
+    }
+
+    .swiper-pagination-bullet {
+      width: var(
+        --swiper-pagination-bullet-width,
+        var(--swiper-pagination-bullet-size, 24px)
+      );
+      height: var(
+        --swiper-pagination-bullet-height,
+        var(--swiper-pagination-bullet-size, 24px)
+      );
+      display: inline-block;
+      border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+      opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+      background: radial-gradient(
+          102.39% 102.39% at -1.07% -1.1%,
+          rgba(255, 255, 255, 0.6) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      border: 0.6px solid;
+
+      border-image-source: radial-gradient(
+          95.28% 93.63% at 4.72% 4.84%,
+          #ffffff 0%,
+          rgba(255, 255, 255, 0.4) 29.19%,
+          rgba(255, 255, 255, 0.4) 65.35%,
+          rgba(255, 255, 255, 0.5) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      box-shadow: 0px 2.75px 2.75px 0px #00000040 inset;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: var(--swiper-pagination-bullet-opacity, 1);
+      background: #0076a9;
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      bottom: var(--swiper-pagination-bottom, 8px);
+      top: var(--swiper-pagination-top, 284px);
+      left: 0;
+      width: 100%;
+    }
+  </style>
 </html>

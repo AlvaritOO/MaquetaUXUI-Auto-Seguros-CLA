@@ -3,16 +3,16 @@
 $link-color: #fff !default;
 $link-color: #ccc;*/
 @font-face {
-  font-family: "Rawson";
-  src: url("../../src/fonts/RawsonRegular.otf") format("opentype") !important;
+  font-family: "Rawson Pro";
+  src: url("../../src/fonts/RawsonRegular.otf");
 }
 html {
   scroll-behavior: smooth;
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
 }
 
 body {
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
   font-size: 18px;
   overflow-x: hidden;
   display: flex;
@@ -12432,7 +12432,7 @@ body {
 }
 
 .light-blue {
-  color: #008EC4 !important;
+  color: #008ec4 !important;
 }
 
 section#carrusel {
@@ -12499,6 +12499,7 @@ section#carrusel {
   font-size: 24px;
   font-family: "Rawson Pro", sans-serif;
   line-height: 30px;
+  padding-bottom: 6px;
 }
 
 .tabla-login label {
@@ -12534,9 +12535,16 @@ section#carrusel {
 
 .card-auto {
   border-radius: 8px;
-  height: 221.6px;
   width: 180px;
   padding: 12px 8px 12px 8px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.card-auto:hover {
+  border: 3px solid #008ec4;
+  transition: all 0.3s ease-in;
 }
 
 .titulo-card-auto {
@@ -12565,11 +12573,6 @@ section#carrusel {
   vertical-align: bottom;
   width: 100%;
   height: auto;
-}
-
-.card-selected:hover {
-  background-color: #fff !important;
-  border: 3px solid #008ec4;
 }
 
 .cards-auto-mobile {
@@ -12644,6 +12647,11 @@ section#carrusel {
 
 .testimonios {
   background-image: url("../../img/Banner-testimonios.jpg");
+}
+
+.user-testimonio {
+  position: relative;
+  top: 17px;
 }
 
 .testimonio-card {
@@ -13117,7 +13125,7 @@ span.icono-destacada.material-icons-outlined:hover {
   gap: 16px;
   width: 337px;
   height: auto;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: #fff;
@@ -13125,7 +13133,7 @@ span.icono-destacada.material-icons-outlined:hover {
   border-radius: 20px;
 }
 .card-content-escolaridad:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
   border: 2px solid #0076a9;
@@ -13139,31 +13147,44 @@ span.icono-destacada.material-icons-outlined:hover {
   background-color: #fff;
   width: 337.33px;
   height: auto;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 1px solid #0076a9;
   border-radius: 16px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
+  -moz-box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
+  box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
 }
 .card-content:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
-  border: 2px solid #0076a9;
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
+  box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
 }
 
 .card-borde-a:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
-  border: 8px solid #f9be00;
+  box-sizing: border-box;
 }
 
+.card-borde-c {
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+  box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+}
 .card-borde-c:hover {
   transition: all 0.3s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
-  border: 8px solid #1896d3;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
+  box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
 }
 
 .card-content .card-body {
@@ -13950,6 +13971,17 @@ span.ic-form {
     transform: translateX(-50%) !important;
   }
 }
+@media (max-width: 575.98px) {
+  #planesauto {
+    background-color: #0076a9;
+  }
+  h2.titulo-cards {
+    color: #fff;
+  }
+  .legales {
+    color: white;
+  }
+}
 .body-buttom {
   padding: 24px;
   height: auto;
@@ -14035,7 +14067,7 @@ a.btn-mas-monto {
 }
 
 .fondo-auto {
-  background-image: url("../img/fondo-auto.png");
+  background-image: url("../img/fondo-auto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
