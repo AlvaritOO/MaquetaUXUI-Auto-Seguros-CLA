@@ -3,16 +3,16 @@
 $link-color: #fff !default;
 $link-color: #ccc;*/
 @font-face {
-  font-family: "Rawson";
-  src: url("../../src/fonts/RawsonRegular.otf") format("opentype") !important;
+  font-family: "Rawson Pro";
+  src: url("../../src/fonts/RawsonRegular.otf");
 }
 html {
   scroll-behavior: smooth;
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
 }
 
 body {
-  font-family: "Rawson", sans-serif;
+  font-family: "Rawson Pro", sans-serif;
   font-size: 18px;
   overflow-x: hidden;
   display: flex;
@@ -12432,7 +12432,7 @@ body {
 }
 
 .light-blue {
-  color: #008EC4 !important;
+  color: #008ec4 !important;
 }
 
 section#carrusel {
