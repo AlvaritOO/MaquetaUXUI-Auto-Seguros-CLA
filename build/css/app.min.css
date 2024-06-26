@@ -3,8 +3,8 @@
 $link-color: #fff !default;
 $link-color: #ccc;*/
 @font-face {
-  font-family: "Rawson";
-  src: url("../../src/fonts/RawsonRegular.otf") format("opentype") !important;
+  font-family: "Rawson Pro";
+  src: url("../../src/fonts/RawsonRegular.otf");
 }
 
 /*!
