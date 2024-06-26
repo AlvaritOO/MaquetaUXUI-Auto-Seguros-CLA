@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <link rel="stylesheet" href="../../../build/css/splide.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- Material  CSS -->
   <link
     href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
@@ -294,7 +296,7 @@
                   <a class="btn btn-primary subt-form" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Quiero contratar</a>
                 </div>
                 <div>
-                    <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                    <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                 </div>
               </div>
             </card>
@@ -353,7 +355,7 @@
                     <a class="btn btn-primary subt-form">Quiero contratar</a>
                   </div>
                   <div>
-                      <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                      <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                   </div>
                 </div>
               </card>
@@ -412,7 +414,7 @@
                     <a class="btn btn-primary subt-form">Quiero contratar</a>
                   </div>
                   <div>
-                      <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                      <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                   </div>
                 </div>
               </card>
@@ -474,7 +476,7 @@
                     <a class="btn btn-primary subt-form">Quiero contratar</a>
                   </div>
                   <div>
-                      <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                      <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                   </div>
                 </div>
               </card>
@@ -535,7 +537,7 @@
                     <a class="btn btn-primary subt-form">Quiero contratar</a>
                   </div>
                   <div>
-                      <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                      <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                   </div>
                 </div>
               </card>
@@ -594,13 +596,14 @@
                     <a class="btn btn-primary subt-form">Quiero contratar</a>
                   </div>
                   <div>
-                      <p class="fw-bold fs-5 text-dark">Ver coberturas y asistencias</p>
+                      <p class="fw-bold fs-5 text-dark" type="button" data-bs-toggle="modal" data-bs-target="#detallesModalHome">Ver coberturas y asistencias</p>
                   </div>
                 </div>
               </card>
 
           </section>
-          
+          <div class="divisor"></div>
+
           <div class="pt-4 font-small legales">
             <p class="fw-bold">El seguro que vas a contratar se descontará mensualmente de la liquidación de sueldo</p>
             <p>(1)El asegurado deberá encontrarse dentro de los 90 días contados desde la fecha del accidente en estado de incapacidad permanente 2/3 <br>
@@ -622,89 +625,91 @@
   <!--Fin planes vehículo-->
   
   <!--Testimonios-->
-  <!-- Desktop -->
-  <section class="d-none d-sm-block">
-    <div style="background-image: url('../../img/Banner-testimonios.jpg');">
+  <section>
+    <div style="background-image: url('../../img/Banner-testimonios.jpg');" class="pb-5 px-5">
       <div>
         <h3 class="text-center text-white pt-5 pb-4">Algunas experiencias de <br>
           <span class="fw-bold">Nuestros clientes</span></h3>
       </div>
-      <div class="justify-content-center d-flex">
-        <div class="testimonio-card m-3">
-          <div class="testimonio-fondo px-4 pt-4">
-            <div><img class="img-testimonio" src="../../img/testimonio-1.png" alt="testimonio1"></div>
-            <div class="primera-parte-card">
-              <h3 class="fw-bold text-white ps-4 nombre-card">María Florencia Becerra <br>
-              </h3>
-              <p class="ps-4 text-white font-medium">Santiago de Chile</p>
-            </div>
-          </div>
-          <div class="px-4">
-            <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Gran experiencia</p>
-                    
-          </div>
-          <div class="px-4">
-            <p>“Con AutoFull, no solo tengo la tranuilidad de estar protegido, sino que también he ahorrado un montón en comparación con mi antiguo seguro. ¡Todo un alivio para mi bolsillo!”</p>
-          </div>
-        </div>
-        <div class="testimonio-card m-3">
-          <div class="testimonio-fondo px-4 pt-4">
-            <div><img class="img-testimonio" src="../../img/testimonio-2.png" alt="testimonio1"></div>
-            <div class="primera-parte-card">
-              <h3 class="fw-bold text-white ps-4 nombre-card">Alfredo Esteban Zapata<br>
-              </h3>
-              <p class="ps-4 text-white font-medium">Región de Valparaíso</p>
-            </div>
-          </div>
-          <div class="px-4">
-            <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Excelente precio</p>
-                    
-          </div>
-          <div class="px-4">
-            
-                    <p>“Estuve días comparando precios antes de contratar y los de Caja Los Andes , son los mejores. Ofrecen buena seguridad y beneficiospor poco, no hay donde perderse.”</p>
-          </div>
-        </div>
+      <div class="swiper-desktop">
 
-        
-      </div>
-      <div class="d-flex justify-content-center">
-        <img class="slidebar" src="../../img/svg/slidebar.svg" alt="slidebar">
-      </div>
-    </div>
-  </section>
-  <!-- Fin Desktop -->
-   <!-- Mobile -->
-      <section class="d-block d-sm-none">
-    <div style="background-image: url('../../img/Banner-testimonios.jpg');">
-      <div>
-        <h3 class="text-center text-white pt-5 pb-4">Algunas experiencias de <br>
-          <span class="fw-bold">Nuestros clientes</span></h3>
-      </div>
-      <div class="justify-content-center">
-        <div class="testimonio-card m-3">
-          <div class="testimonio-fondo px-3 pt-4">
-            <div><img class="img-testimonio" src="../../img/testimonio-1.png" alt="testimonio1"></div>
-            <div class="primera-parte-card">
-              <h3 class="fw-bold text-white ps-1 nombre-card">María Florencia Becerra <br>
-              </h3>
-              <p class="ps-1 text-white font-medium">Santiago de Chile</p>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="justify-content-center d-flex">
+                <div class="testimonio-card">
+                  <div class="testimonio-fondo px-4 pt-4">
+                    <div><img class="img-testimonio" src="../../img/testimonio-1.png" alt="testimonio1"></div>
+                    <div class="primera-parte-card">
+                      <h3 class="fw-bold text-white ps-4 nombre-card">María Florencia Becerra <br>
+                      </h3>
+                      <p class="ps-4 text-white font-medium">Santiago de Chile</p>
+                    </div>
+                  </div>
+                  <div class="px-4">
+                    <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Gran experiencia</p>
+                            
+                  </div>
+                  <div class="px-4">
+                    <p>“Con AutoFull, no solo tengo la tranuilidad de estar protegido, sino que también he ahorrado un montón en comparación con mi antiguo seguro. ¡Todo un alivio para mi bolsillo!”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="justify-content-center d-flex">
+                <div class="testimonio-card">
+                  <div class="testimonio-fondo px-4 pt-4">
+                    <div><img class="img-testimonio" src="../../img/testimonio-2.png" alt="testimonio1"></div>
+                    <div class="primera-parte-card">
+                      <h3 class="fw-bold text-white ps-4 nombre-card">Alfredo Esteban Zapata<br>
+                      </h3>
+                      <p class="ps-4 text-white font-medium">Región de Valparaíso</p>
+                    </div>
+                  </div>
+                  <div class="px-4">
+                    <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Excelente precio</p>
+                            
+                  </div>
+                  <div class="px-4">
+                    
+                            <p>“Estuve días comparando precios antes de contratar y los de Caja Los Andes , son los mejores. Ofrecen buena seguridad y beneficiospor poco, no hay donde perderse.”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="justify-content-center d-flex">
+                <div class="testimonio-card">
+                  <div class="testimonio-fondo px-4 pt-4">
+                    <div><img class="img-testimonio" src="../../img/testimonio-2.png" alt="testimonio1"></div>
+                    <div class="primera-parte-card">
+                      <h3 class="fw-bold text-white ps-4 nombre-card">Alfredo Esteban Zapata<br>
+                      </h3>
+                      <p class="ps-4 text-white font-medium">Región de Valparaíso</p>
+                    </div>
+                  </div>
+                  <div class="px-4">
+                    <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Excelente precio</p>
+                            
+                  </div>
+                  <div class="px-4">
+                    
+                            <p>“Estuve días comparando precios antes de contratar y los de Caja Los Andes , son los mejores. Ofrecen buena seguridad y beneficiospor poco, no hay donde perderse.”</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="px-4">
-            <p class="fw-bold font-medium2 pt-4 titulo-car-testimonio">Gran experiencia</p>
+
+          <div class="swiper-pagination-desktop"></div>
+          <div class="cont-nav-button">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
-          <div class="px-4 pb-2">
-            <p>“Con AutoFull, no solo tengo la tranuilidad de estar protegido, sino que también he ahorrado un montón en comparación con mi antiguo seguro. ¡Todo un alivio para mi bolsillo!”</p>
-          </div>
-        </div>  
-      </div>
-      <div class="d-flex justify-content-center">
-        <img class="slidebar" src="../../img/svg/slidebar.svg" alt="slidebar">
+        </div>
       </div>
     </div>
   </section>
-  <!-- Fin Mobile -->
   <!--Fin testimonios-->
 
   <!-- Canales de contacto-->
@@ -1799,6 +1804,9 @@
   <script src="../../js/bootstrap.min.js"></script>
   <script src="../../js/funciones.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../../js/funciones2.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script>
     $(document).ready(function () {
@@ -1831,6 +1839,109 @@
       })
     });
   </script>
+
+  <style>
+    .cont-nav-button {
+      background-color: white !important;
+      margin-left: auto;
+      margin-right: auto;
+      width: 248px;
+      border-radius: 50px;
+      height: 64px;
+      margin-top: 40px;
+    }
+
+    .swiper-button-next {
+      position: relative;
+      top: -12px;
+      right: -195px;
+      width: calc(var(--swiper-navigation-size) / 44 * 44);
+      height: var(--swiper-navigation-size);
+      margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+      z-index: 10;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--swiper-navigation-color, var(--swiper-theme-color));
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      background-image: url("../../img/svg/Arrowleft.svg");
+    }
+
+    .swiper-button-prev {
+      position: relative;
+      top: 10px;
+      width: calc(var(--swiper-navigation-size) / 44 * 44);
+      height: var(--swiper-navigation-size);
+      margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+      z-index: 10;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--swiper-navigation-color, var(--swiper-theme-color));
+      background-image: url("../../img/svg/Arrowleft.svg");
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      font-family: swiper-icons;
+      font-size: var(--swiper-navigation-size);
+      text-transform: none !important;
+      letter-spacing: 0;
+      font-variant: initial;
+      line-height: 1;
+      display: none;
+    }
+
+    .swiper-pagination-bullet {
+      width: var(
+        --swiper-pagination-bullet-width,
+        var(--swiper-pagination-bullet-size, 24px)
+      );
+      height: var(
+        --swiper-pagination-bullet-height,
+        var(--swiper-pagination-bullet-size, 24px)
+      );
+      display: inline-block;
+      border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+      opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+      background: radial-gradient(
+          102.39% 102.39% at -1.07% -1.1%,
+          rgba(255, 255, 255, 0.6) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      border: 0.6px solid;
+
+      border-image-source: radial-gradient(
+          95.28% 93.63% at 4.72% 4.84%,
+          #ffffff 0%,
+          rgba(255, 255, 255, 0.4) 29.19%,
+          rgba(255, 255, 255, 0.4) 65.35%,
+          rgba(255, 255, 255, 0.5) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      box-shadow: 0px 2.75px 2.75px 0px #00000040 inset;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: var(--swiper-pagination-bullet-opacity, 1);
+      background: #0076a9;
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      bottom: var(--swiper-pagination-bottom, 8px);
+      top: var(--swiper-pagination-top, 284px);
+      left: 0;
+      width: 100%;
+    }
+  </style>
+
 </body>
 
 </html>

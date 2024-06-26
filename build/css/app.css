@@ -13147,6 +13147,7 @@ span.icono-destacada.material-icons-outlined:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border: 1px solid #0076a9;
   border-radius: 16px;
+  box-sizing: border-box;
 }
 .card-content:hover {
   transition: all 0.3s ease-in;
@@ -13159,6 +13160,7 @@ span.icono-destacada.material-icons-outlined:hover {
   transition: all 0.3s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
+  box-sizing: border-box;
   border: 8px solid #f9be00;
 }
 
@@ -13166,6 +13168,7 @@ span.icono-destacada.material-icons-outlined:hover {
   transition: all 0.3s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
+  box-sizing: border-box;
   border: 8px solid #1896d3;
 }
 
