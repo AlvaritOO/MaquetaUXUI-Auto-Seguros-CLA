@@ -80,12 +80,12 @@ const swiperdesktop = new Swiper('.swiper-desktop', {
     // when window width is >= 640px
     1024: {
       slidesPerView: 2,
-      spaceBetween: 150
+      spaceBetween: 10
     },
     // when window width is >= 640px
     1150: {
       slidesPerView: 2,
-      spaceBetween: 150
+      spaceBetween: 10
     }
 
   },

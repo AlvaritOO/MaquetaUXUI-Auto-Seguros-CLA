@@ -12649,6 +12649,11 @@ section#carrusel {
   background-image: url("../../img/Banner-testimonios.jpg");
 }
 
+.user-testimonio {
+  position: relative;
+  top: 17px;
+}
+
 .testimonio-card {
   border-radius: 20px;
   max-width: 541px;
@@ -13120,7 +13125,7 @@ span.icono-destacada.material-icons-outlined:hover {
   gap: 16px;
   width: 337px;
   height: auto;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: #fff;
@@ -13128,7 +13133,7 @@ span.icono-destacada.material-icons-outlined:hover {
   border-radius: 20px;
 }
 .card-content-escolaridad:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
   border: 2px solid #0076a9;
@@ -13142,34 +13147,44 @@ span.icono-destacada.material-icons-outlined:hover {
   background-color: #fff;
   width: 337.33px;
   height: auto;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 1px solid #0076a9;
   border-radius: 16px;
   box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
+  -moz-box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
+  box-shadow: 0px 0px 0px 2px rgb(0, 118, 169);
 }
 .card-content:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
-  border: 2px solid #0076a9;
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
+  box-shadow: 0px 0px 0px 6px rgb(249, 190, 0);
 }
 
 .card-borde-a:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
   box-sizing: border-box;
-  border: 8px solid #f9be00;
 }
 
+.card-borde-c {
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+  box-shadow: 0px 0px 0px 6px rgb(24, 150, 211);
+}
 .card-borde-c:hover {
   transition: all 0.3s ease-in;
   transform: translateY(10px) scale();
   z-index: 99;
   box-sizing: border-box;
-  border: 8px solid #1896d3;
+  -webkit-box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
+  -moz-box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
+  box-shadow: 0px 0px 0px 6px rgb(0, 118, 169);
 }
 
 .card-content .card-body {
@@ -13954,6 +13969,17 @@ span.ic-form {
     top: 0 !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #planesauto {
+    background-color: #0076a9;
+  }
+  h2.titulo-cards {
+    color: #fff;
+  }
+  .legales {
+    color: white;
   }
 }
 .body-buttom {
