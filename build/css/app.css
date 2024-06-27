@@ -14119,7 +14119,7 @@ section#legales {
 }
 
 section#footer {
-  background-color: #00648F;
+  background-color: #00648f;
   margin-top: auto;
 }
 
@@ -14157,6 +14157,12 @@ a.link-footer:after {
 a.link-footer:hover:after {
   width: 100%;
   left: 0;
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
 }
 
 ul::-webkit-scrollbar {
