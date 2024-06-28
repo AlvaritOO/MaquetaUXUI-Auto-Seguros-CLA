@@ -14748,7 +14748,7 @@ h5.title-form {
     margin-top: 50px;
   }
   .texto-imagen-cabecera {
-    line-height: 0.5em;
+    line-height: 0.9em;
     font-size: calc(1.325rem + 0.9vw);
     font-weight: 600;
     color: #fff;
@@ -14894,7 +14894,7 @@ h5.title-form {
     border-radius: 16px;
   }
   .texto-imagen-cabecera {
-    line-height: 1em;
+    line-height: 0.9em;
     font-size: 1rem;
     font-weight: 800;
     color: #fff;
